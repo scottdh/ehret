@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link class="changeme"type="text/css" rel="stylesheet" href="main.css">
+    <title>Martin-Ehret Wirtschaftsprüfer Steuerberater - Leistungen</title>
+  </head>
+  <body>
+  <div class="siteContainer homePage">
+    <div class="bodyContent">
+    	<section class="sidebar">
+        <div class="navMenuIcon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>Menu</p>
+        </div>
+    		<header>
+    			<a href="index.html"><img src="img/logo.png"></a>
+    		</header>
+    		<div class="nav">
+    			<ul class="navList">
+    				<li><a href="philosophie.html">Philosophie</a></li>
+  		        <li><a href="#">Leistungen</a></li>
+  		        <li><a href="#">Wirtschaftsprüfung</a></li>
+  		        <li><a href="#">Strategische<br />Managementberatung</a></li>
+  		        <li><a href="#">Sanierungsberatung</a></li>
+  		        <li><a href="#">Erfahrungen & Schwerpunkte</a></li>
+  		        <li><a href="#">Zur Person</a></li>
+  		        <li><a href="#">Rundschreiben</a></li>
+  		        <li><a href="#">Archiv</a></li>
+  		        <li><a class="themeBtn" href="#" rel="main.css"><div class="box" id="statusquo"></div></a><a class="themeBtn" href="#" rel="dunkleRot.css"><div class="box" id="dunkleRot"></div></a><a class="themeBtn" href="#" rel="weiss.css"><div class="box" id="weiss"></div></a></li>
+  		     </ul>
+    		</div>
+    	</section>
+    	<section class="content splashimg">
+    			<div class="headerText">
+            <h1>Martin-Ehret</h1>
+            <h2>Wirtschaftsprüfer & Steuerberater</h2>
+    			</div>
+    	</section>
+    </div>
+  	<section class="footer">
+  		<ul class="navList">
+  			<li><a href="#">Aktuelles</a></li>
+		    <li><a href="#">Impressum</a></li>
+		    <li><a href="#">Kontakt</a></li>
+  		</ul>
+  	</section>
+
+  </div>
+
+<script src="js/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+	$(".themeBtn").click(function() {
+  $("link.changeme").attr("href",$(this).attr('rel'));
+		return false;
+	});
+
+  $(".navMenuIcon").on('click', function(){
+    $('.nav').toggleClass('showing');
+  });
+
+});
+  </script>
+  </body>
+</html>
