@@ -1,5 +1,5 @@
 html {
-	background-color: #FFFFF0;
+	background-color: #790C08;
 	padding: 0px;
 }
 
@@ -8,7 +8,8 @@ body {
 	padding: 0;
 	height: 100%;
 	font-size: 16px;
-	font-family: ariel, sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
 	color: #292929;
 }
 
@@ -23,7 +24,7 @@ body {
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	width: 70%;
+	width: 80%;
 	max-width: 1400px;
 	min-height: 700px;
 	background-color: #fff;
@@ -47,9 +48,11 @@ body {
 }
 
 .sidebar {
-	background-color: #D8D8D8;
+	background-color: #DADADA;
 	width: 250px;
 	padding-top: 30px;
+	text-align: center;
+	font-weight: 400;
 }
 
 .sidebar header {
@@ -178,7 +181,7 @@ li a:hover {
 }
 
 .content p {
-	line-height: 1.4em
+	line-height: 1.5em
 }
 
 .content header p {
@@ -210,7 +213,8 @@ li a:hover {
 .footer {
 	padding: 10px;
 	text-align: right;
-	background-color: #D8D8D8;
+	background-color: #DADADA;
+	font-weight: 400;
 }
 
 .footer .navList {
@@ -324,6 +328,7 @@ li a:hover {
 
 	.showing {
 		max-height: 50em;
+		padding-top: 20px;
 	}
 
 	.sidebar .navMenuIcon {
